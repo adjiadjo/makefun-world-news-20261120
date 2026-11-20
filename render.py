@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 """Build-time renderer for the news-image-20261120 entry artwork.
 
-Draws an original front-page-style illustration summarising world news of
-Friday 20 November 2026 (six sourced stories; see SOURCES.md). Build-time
-only: requires Pillow and system fonts (Georgia/Arial on Windows, DejaVu
-fallback). The submitted runtime (main.py) is stdlib-only and copies the
-committed entry.png, so sandbox runs need none of this.
-
-Usage: python render.py [--out entry.png] [--preview preview-300.png]
-Deterministic: fixed seeds, no clocks, no network.
+Regenerate the current artwork with render-v2.py. This legacy file is retained
+only as the original, already-entered six-story design; the sandbox runtime in
+main.py remains stdlib-only and copies the committed entry.png.
 """
 
 import argparse

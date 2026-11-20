@@ -1,31 +1,29 @@
 # Sources — world news of Friday 20 November 2026
 
-Every story in entry.png was checked against publisher or primary-source reporting
-before the artwork was drawn. Story-to-source mapping (numbers match the research
-ledger kept outside this repository):
+The artwork's 18 short items are sourced in [NEWS.md](NEWS.md). Each claim is
+numbered inline there, and its **Sources** section is rendered from the continuing
+research citation ledger. The source ids support the story text; they are not
+labels printed on the image.
 
-- Kyiv missile attack (overnight into 20 Nov): [9]
-- Cyclone Akvan landfall forecast / evacuations: [2], [18]
-- Albanese-Xi meeting at APEC, Friday 20 Nov; beef trade; superpowers' declaration: [12], [16], [17]
-- World Children's Day / Save the Children conflict-zone record: [14]
-- Iowa Army Ammunition Plant detonation, 20 Nov noon: [10], [11]
-- Wellington Test Day 1 score / Day 2: [13], [15]
+## Story map
 
-Retrieved 2026-11-20 ~00:45-01:40 UTC. Events of 19 Nov or earlier (ICJ Rohingya
-ruling, Anthropic IPO debut, GTA VI launch, the Trump-Xi-Putin trilateral itself)
-were deliberately excluded as the day's events; the trilateral appears only as
-context for Friday's APEC diplomacy.
+- Leads 1–3: Ukraine attack and Kyiv damage; Russian missiles and a suspected drone
+  in Poland; UK–EU reset agreements.
+- Illustrated briefs 4–8: Akvan's completed landfall and evacuations; COP31's
+  unresolved draft; Xi–Albanese at APEC; UNICEF's verified child-casualty total;
+  Saudi–Houthi exchanges.
+- Text briefs 9–18: Myanmar's response to the ICJ ruling; South Korea's cholera
+  report; AI-related market falls; South Sudan deportee allegations; Fiona's death;
+  New York's proposed Rikers plan; UEFA's draw; New Zealand–India Test; El Salvador
+  election news.
 
-## Sources
+## Date and attribution notes
 
-[2] https://www.downtoearth.org.in/climate-change/cyclone-akvan-third-cyclone-in-a-month-heads-towards-andhra-pradesh-odisha
-[9] https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge
-[10] https://www.army.mil/article/296772
-[11] https://www.eastbaytimes.com/2026/11/19/iowa-lead-dust-cloud-army-bomb
-[12] https://www.abc.net.au/news/2026-11-20/albanese-to-meet-xi-for-trade/107406222
-[13] https://www.afp.com/de/node/3853760
-[14] https://reliefweb.int/report/world/stop-war-children-changing-odds-2026-enarsw
-[15] https://www.rnz.co.nz/news/sport/2678394/cricket-nicholls-century-resurrects-black-caps-on-day-one-of-first-test-against-india
-[16] https://www.southernriverinanews.com.au/national/tough-act-to-follow-pms-xi-meeting-overshadowed
-[17] https://www.thenewdaily.com.au/news/world/2026/11/20/superpowers-apec-peace-aim
-[18] https://www.downtoearth.org.in/climate-change/daily-weather-tracker-cyclone-akvan-to-make-landfall-between-andhra-pradesh-and-odisha-on-november-20
+- The Poland incident is attributed as an AP report; Tusk's assessment is described
+  as “likely,” not established intent.
+- The COP31 item concerns the draft available on the summit's scheduled final day,
+  not the eventually adopted text.
+- Akvan's no-casualty statement is bounded by the report's publication time.
+- The UNICEF count covers January–October 2026 and distinguishes killed from injured.
+- The Rikers item is an announced plan that still requires council approval.
+- The cricket score is at stumps on day two, not the match result.
