@@ -23,11 +23,11 @@ A three-lead front page, five illustrated briefs, and ten additional headlines. 
 11. **Markets:** AI- and chip-related share selling spread globally; AP reported the Nikkei down 5.1% and the Kospi down 5.2%.[29]
 12. **Italy:** A nationwide strike disrupted transport and schools; demonstrations took place in more than 100 cities.[41]
 13. **South Sudan:** AP reported allegations that guards pocketed money sent by families of deportees; five deportees remained in custody.[30]
-14. **Fiona:** Cincinnati Zoo's nine-year-old hippo died after complications from swallowing a knit hat.[37]
+14. **Gaza:** Local health officials said Israeli strikes killed six people in central Gaza on Friday; Israel's military said its targets were militants.[27]
 15. **New York:** Mamdani announced a plan to close Rikers Island by 2032, subject to council approval.[36]
 16. **Football:** UEFA's Nations League draw set Spain–France and Norway–England as quarter-final ties.[35]
 17. **Cricket:** New Zealand made 368; India ended day two at 159/1. Jaiswal scored 85; Rahul was unbeaten on 52.[39]
-18. **El Salvador:** Bukele launched a third-term bid; AP described the term-limit change and concerns about checks and balances.[40]
+18. **Iraq:** Security forces deployed to Jurf al-Sakhar following a reported agreement with Kataib Hezbollah; the arrangement did not immediately remove the militia.[27]
 
 ## Sources
 
@@ -44,8 +44,6 @@ A three-lead front page, five illustrated briefs, and ten additional headlines. 
 [30] https://www.eastbaytimes.com/2026/11/20/us-deportees-south-sudan-hunger
 [35] https://www.uefa.com/uefanationsleague/news/02ab-221d9e23448d-d862e943f6f2-1000--uefa-nations-league-quarter-final-and-play-off-ties-spain-vs
 [36] https://apnews.com/article/zohran-mamdani-rikers-island-aaf05ad46f0a999a213f2613fe39f7dc
-[37] https://apnews.com/article/fiona-hippo-cincinnati-zoo-hat-3d90d10c57698af06e5a7a67bed05608
 [38] https://au.news.yahoo.com/south-korea-issues-warning-reporting-120749918.html
 [39] https://www.mankatofreepress.com/ap/sports/india-ends-day-2-at-159-1-in-reply-to-new-zealands-368-in-the/article_d9f97c13-0bd6-5c69-a58d-021cd19b5e60.html
-[40] https://www.theweek.in/wire-updates/international/2026/11/20/el-salvador-president-nayib-bukele-seeks-third-term-at-home-while-fighting-gangs-in-haiti.html
 [41] https://www.cp24.com/news/world/2026/11/20/workers-and-students-protest-across-europe-as-a-strike-in-italy-disrupts-services

@@ -13,9 +13,9 @@ labels printed on the image.
   unresolved draft; Xi–Albanese at APEC; UNICEF's verified child-casualty total;
   Saudi–Houthi exchanges.
 - Text briefs 9–18: Myanmar's response to the ICJ ruling; South Korea's cholera
-  report; AI-related market falls; South Sudan deportee allegations; Fiona's death;
-  New York's proposed Rikers plan; UEFA's draw; New Zealand–India Test; El Salvador
-  election news.
+  report; AI-related market falls; South Sudan deportee allegations; Gaza strikes;
+  New York's proposed Rikers plan; UEFA's draw; New Zealand–India Test; the Iraqi
+  security deployment at Jurf al-Sakhar.
 
 ## Date and attribution notes
 

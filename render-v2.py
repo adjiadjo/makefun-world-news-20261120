@@ -236,9 +236,9 @@ def draw_thumb_gulf(draw: ImageDraw.ImageDraw, x: int, y: int, w: int, h: int) -
 
 def draw_header(draw: ImageDraw.ImageDraw) -> None:
     ink_text(draw, (32, 16), "WORLD NEWS", font("display", 46), BLUE, "masthead")
-    ink_text(draw, (34, 67), "FRIDAY  /  20 NOVEMBER 2026", font("bold", 15), ORANGE, "date")
-    ink_text(draw, (647, 28), "3 LEADS  ·  5 PICTURE BRIEFS", font("mono", 14), BLUE, "edition-top")
-    ink_text(draw, (647, 53), "10 MORE STORIES  ·  6 REGIONS", font("mono", 13), ORANGE, "edition-bottom")
+    ink_text(draw, (34, 71), "FRIDAY  /  INTERNATIONAL BRIEFING", font("bold", 17), BLUE, "edition-kicker")
+    ink_text(draw, (638, 15), "20 NOV 2026", font("bold", 42), ORANGE, "date")
+    ink_text(draw, (647, 71), "3 LEADS  /  5 PICTURES  /  10 BRIEFS", font("mono", 12), BLUE, "edition-top")
     rule(draw, (32, 96, 992, 96), BLUE, 3)
     rule(draw, (32, 101, 992, 101), ORANGE, 1)
     rule(draw, (34, 107, 206, 109), ORANGE, 2)
@@ -261,20 +261,20 @@ def draw_leads(draw: ImageDraw.ImageDraw) -> None:
     y2, h2 = 122, 122
     rule(draw, (rx, y2, rx + rw, y2), BLUE, 3)
     ink_text(draw, (rx + 14, y2 + 8), "02  /  POLAND", font("mono", 11), ORANGE, "lead-2-kicker")
-    paragraph(draw, rx + 14, y2 + 27, "MISSILES IN POLAND", font("display", 27), BLUE,
+    paragraph(draw, rx + 14, y2 + 23, "RUSSIAN MISSILES\nIN POLAND", font("display", 31), BLUE,
               333, 0, "lead-2-head", 2)
-    paragraph(draw, rx + 14, y2 + 83, "Two missiles + suspected drone; Tusk says likely provocation.",
-              font("sans", 14), BLUE, 335, 1, "lead-2-deck", 2)
+    paragraph(draw, rx + 14, y2 + 102, "No injuries reported; one drone suspected.",
+              font("sans", 14), BLUE, 335, 1, "lead-2-deck", 1)
     draw_poland_airspace(draw, rx + 354, y2 + 20)
     rule(draw, (rx, y2 + h2, rx + rw, y2 + h2), BLUE, 1)
 
     y3, h3 = 252, 122
     rule(draw, (rx, y3, rx + rw, y3), ORANGE, 3)
     ink_text(draw, (rx + 14, y3 + 8), "03  /  EUROPE", font("mono", 11), ORANGE, "lead-3-kicker")
-    paragraph(draw, rx + 14, y3 + 27, "UK–EU AGREE THREE DEALS", font("display", 27), BLUE,
+    paragraph(draw, rx + 14, y3 + 23, "UK–EU SEAL\nTHREE DEALS", font("display", 31), BLUE,
               333, 0, "lead-3-head", 2)
-    paragraph(draw, rx + 14, y3 + 83, "Food trade · carbon-market link · youth mobility.",
-              font("sans", 14), BLUE, 335, 1, "lead-3-deck", 2)
+    paragraph(draw, rx + 14, y3 + 102, "Food trade · carbon link · youth mobility.",
+              font("sans", 14), BLUE, 335, 1, "lead-3-deck", 1)
     draw_trade_icon(draw, rx + 354, y3 + 20)
     rule(draw, (rx, y3 + h3, rx + rw, y3 + h3), BLUE, 1)
 
@@ -284,19 +284,19 @@ def draw_picture_briefs(draw: ImageDraw.ImageDraw) -> None:
     ink_text(draw, (x, 394), "IN PICTURES  /  5", font("mono", 13), ORANGE, "pictures-heading")
     rule(draw, (x, 416, x + colw, 416), BLUE, 2)
     entries = [
-        ("AKVAN CROSSES ODISHA", "372K evacuated; no casualties reported by publication.", draw_thumb_cyclone),
-        ("COP31 DRAFT CLASH", "Fossil-fuel wording absent; countries demand stronger text.", draw_thumb_cop),
-        ("XI–ALBANESE AT APEC", "Xi says Australia–China ties made a “full turnaround.”", draw_thumb_apec),
-        ("UKRAINE'S CHILDREN", "1,144 killed or injured in Jan–Oct, UNICEF says.", draw_thumb_children),
-        ("SAUDI–HOUTHI EXCHANGE", "Coalition reports five drones and one missile intercepted.", draw_thumb_gulf),
+        ("AKVAN HITS ODISHA", "372,000 evacuated. No casualties reported by publication.", draw_thumb_cyclone),
+        ("COP31 DRAFT DISPUTE", "Countries demand fossil-fuel wording and stronger finance.", draw_thumb_cop),
+        ("XI MEETS ALBANESE", "At APEC, Xi hails a turnaround in Australia–China ties.", draw_thumb_apec),
+        ("UKRAINE'S CHILDREN", "UNICEF: 1,144 killed or injured in January–October 2026.", draw_thumb_children),
+        ("SAUDI–HOUTHI CLASH", "Coalition says it hit Houthi targets and intercepted attacks.", draw_thumb_gulf),
     ]
     row_h = 107
     for i, (title, body, art) in enumerate(entries):
         y = 422 + i * row_h
         art(draw, x + 2, y + 10, 118, 82)
-        paragraph(draw, x + 134, y + 10, title, font("bold", 16), BLUE,
-                  324, 1, f"thumb-{i+1}-head", 2)
-        paragraph(draw, x + 134, y + 38, body, font("sans", 13), BLUE,
+        paragraph(draw, x + 134, y + 8, title, font("bold", 21), BLUE,
+                  324, 1, f"thumb-{i+1}-head", 1)
+        paragraph(draw, x + 134, y + 38, body, font("sans", 17), BLUE,
                   324, 1, f"thumb-{i+1}-deck", 3)
         if i < len(entries) - 1:
             rule(draw, (x, y + row_h - 1, x + colw, y + row_h - 1), screened(BLUE, .55), 1)
@@ -307,24 +307,23 @@ def draw_text_briefs(draw: ImageDraw.ImageDraw) -> None:
     ink_text(draw, (x, 394), "ALSO TODAY  /  10 BRIEFS", font("mono", 13), ORANGE, "briefs-heading")
     rule(draw, (x, 416, x + colw, 416), BLUE, 2)
     entries = [
-        "Myanmar calls ICJ Rohingya ruling “unfair.”",
-        "South Korea's first cholera case since 2016.",
-        "AI sell-off: Nikkei −5.1%, Kospi −5.2%.",
-        "Italy strike hits 100+ cities; schools and transit hit.",
-        "AP: families allege guards pocketed detainee funds.",
-        "Fiona the Cincinnati hippo dies at age 9.",
-        "Mamdani plan: close Rikers by 2032.",
-        "Nations League: Spain–France; Norway–England.",
-        "NZ 368; India 159/1 at Day Two stumps.",
-        "El Salvador's Bukele launches third-term bid.",
+        "MYANMAR calls Thursday's ICJ Rohingya verdict “unfair.”",
+        "SOUTH KOREA reports its first cholera case since 2016.",
+        "AI STOCKS SLIDE: Nikkei −5.1%; South Korea's Kospi −5.2%.",
+        "ITALY STRIKE disrupts schools and transport across 100+ cities.",
+        "SOUTH SUDAN: families allege guards took deportees' food money.",
+        "GAZA: health officials say Israeli strikes killed six on Friday.",
+        "NEW YORK: Mamdani's plan would close Rikers Island by 2032.",
+        "NATIONS LEAGUE DRAW: Spain–France and Norway–England.",
+        "WELLINGTON, DAY 2: India 159/1 at stumps; New Zealand 368.",
+        "IRAQ deploys security forces to Jurf al-Sakhar after militia deal.",
     ]
-    tags = ("MYA", "KOR", "MKT", "ITA", "SUD", "US", "NYC", "UEFA", "NZ·IN", "SAL")
     row_h = 54
-    for i, (title, tag) in enumerate(zip(entries, tags)):
+    for i, title in enumerate(entries):
         y = 422 + i * row_h
-        ink_text(draw, (x + 1, y + 10), f"{i+9:02d}", font("mono", 12), ORANGE, f"brief-{i+9}-number")
-        ink_text(draw, (x + 36, y + 10), tag, font("mono", 10), ORANGE, f"brief-{i+9}-tag")
-        fit_line(draw, title, x + 95, y + 8, colw - 98, 17, 14, BLUE, f"brief-{i+9}-text")
+        ink_text(draw, (x + 1, y + 7), f"{i+9:02d}", font("mono", 14), ORANGE, f"brief-{i+9}-number")
+        paragraph(draw, x + 34, y + 3, title, font("bold", 20), BLUE,
+                  colw - 36, 0, f"brief-{i+9}-text", 2)
         if i < len(entries) - 1:
             rule(draw, (x, y + row_h - 1, x + colw, y + row_h - 1), screened(BLUE, .55), 1)
 

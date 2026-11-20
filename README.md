@@ -13,8 +13,8 @@ column, and ten text-only briefs at right. The leads cover Russia's attack on
 Ukraine, the Poland airspace incident, and new UK–EU agreements. Illustrated
 briefs cover Cyclone Akvan, COP31, the Xi–Albanese meeting, UNICEF's Ukraine
 child-casualty figures, and the Saudi–Houthi exchange. The ten additional briefs
-span Myanmar, South Korea, markets, Italy, South Sudan, Fiona the hippo, New York,
-UEFA, cricket, and El Salvador. The exact wording and cited source URLs are in
+span Myanmar, South Korea, markets, Italy, South Sudan, Gaza, New York,
+UEFA, cricket, and Iraq. The exact wording and cited source URLs are in
 [NEWS.md](NEWS.md); [SOURCES.md](SOURCES.md) explains the source mapping.
 
 ## Run it

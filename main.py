@@ -2,7 +2,7 @@
 """make.fun entry: news-image-20261120 — "Sum up 20 November's world news in one image".
 
 The artwork (entry.png) is checked into this repository. It was rendered by
-render.py (Pillow, build-time only) from original vector-style drawing code.
+render-v2.py (Pillow, build-time only) from original vector-style drawing code.
 This runtime uses only the Python standard library: it copies the committed
 image to the output directory, byte for byte, so every run is deterministic.
 
